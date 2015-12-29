@@ -20,7 +20,6 @@
       "reflect-metadata": "npm:reflect-metadata@^0.1.2",
       "rxjs": "npm:rxjs@^5.0.0-beta.0",
       "text": "github:systemjs/plugin-text@^0.0.4",
-      "ts": "github:frankwallis/plugin-typescript@^2.4.3",
       "zone.js": "npm:zone.js@^0.5.10"
     },
     "devDependencies": {
