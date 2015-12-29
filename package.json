@@ -1,0 +1,39 @@
+{
+  "name": "ng2",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "jspm install && tsc",
+    "start": "live-server",
+    "test": "karma start"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.6",
+      "css": "github:systemjs/plugin-css@^0.1.20",
+      "es6-promise": "npm:es6-promise@^3.0.2",
+      "es6-shim": "npm:es6-shim@^0.33.13",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "rxjs": "npm:rxjs@^5.0.0-beta.0",
+      "text": "github:systemjs/plugin-text@^0.0.4",
+      "ts": "github:frankwallis/plugin-typescript@^2.4.3",
+      "zone.js": "npm:zone.js@^0.5.10"
+    },
+    "devDependencies": {
+      "clean-css": "npm:clean-css@^3.4.8",
+      "live-server": "npm:live-server@0.8.1",
+      "typescript": "npm:typescript@^1.7.5"
+    }
+  },
+  "dependencies": {
+    "rxjs": "^5.0.0-beta.0",
+    "angular2": "^2.0.0-beta.0"
+  },
+  "devDependencies": {
+    "live-server": "^0.9.0"
+  }
+}
