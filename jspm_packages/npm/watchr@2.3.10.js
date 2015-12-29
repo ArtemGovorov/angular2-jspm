@@ -1,1 +1,0 @@
-module.exports = require("npm:watchr@2.3.10/out/lib/watchr");

@@ -1,1 +1,0 @@
-module.exports = require("npm:extendr@2.0.1/out/lib/extendr.js");

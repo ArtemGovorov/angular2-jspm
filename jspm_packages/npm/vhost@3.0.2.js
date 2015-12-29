@@ -1,1 +1,0 @@
-module.exports = require("npm:vhost@3.0.2/index");

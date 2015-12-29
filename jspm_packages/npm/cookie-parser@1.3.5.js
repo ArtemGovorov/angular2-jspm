@@ -1,1 +1,0 @@
-module.exports = require("npm:cookie-parser@1.3.5/index");

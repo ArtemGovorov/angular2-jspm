@@ -1,1 +1,0 @@
-module.exports = require("npm:connect-timeout@1.6.2/index");

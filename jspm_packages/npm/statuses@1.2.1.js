@@ -1,1 +1,0 @@
-module.exports = require("npm:statuses@1.2.1/index");

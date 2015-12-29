@@ -1,1 +1,0 @@
-module.exports = require("npm:on-headers@1.0.1/index");

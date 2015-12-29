@@ -1,1 +1,0 @@
-module.exports = require("npm:typechecker@2.0.8/out/lib/typechecker.js");

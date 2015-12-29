@@ -1,1 +1,0 @@
-module.exports = require("npm:safefs@2.0.3/out/lib/safefs.js");

@@ -1,1 +1,0 @@
-module.exports = require("github:frankwallis/plugin-typescript@2.4.3/plugin");
