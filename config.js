@@ -35,6 +35,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.20",
     "es6-promise": "npm:es6-promise@3.0.2",
     "es6-shim": "npm:es6-shim@0.33.13",
+    "frankwallis/plugin-typescript": "github:frankwallis/plugin-typescript@2.4.3",
     "live-server": "npm:live-server@0.8.1",
     "plugin-typescript": "npm:plugin-typescript@2.0.3",
     "reflect-metadata": "npm:reflect-metadata@0.1.2",
@@ -885,7 +886,7 @@ System.config({
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:plugin-typescript@2.0.3": {
-      "typescript": "npm:typescript@1.6.2"
+      "typescript": "npm:typescript@1.7.5"
     },
     "npm:process@0.11.2": {
       "assert": "github:jspm/nodelibs-assert@0.1.0"
