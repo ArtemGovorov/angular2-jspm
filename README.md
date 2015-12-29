@@ -1,7 +1,4 @@
-# JSPM & Angular2 & SystemJS & Typescript Playground 
-This repository was initially for me to play with the latest technos I heard about.
-
-Maybe someday it helps someone to start with angular2 !
+# Angular2 JSPM
 
 ## 1. Initialize application
 
@@ -11,14 +8,14 @@ npm install -g jspm
 ```
 
 ```bash
-# Locally install latest packages
-npm install && jspm install
-
 # Validate project configuration file
 jspm init
 
+# Locally install latest packages
+npm install && jspm install
+
 # Launch app in browser
-live-server
+npm start
 ``` 
 
 ## 2. Play around with jspm bundling
