@@ -36,6 +36,8 @@
   },
   "devDependencies": {
     "jspm": "^0.16.19",
-    "live-server": "^0.9.0"
+    "live-server": "^0.9.0",
+    "phantomjs-polyfill": "0.0.1",
+    "typescript": "^1.7.5"
   }
 }
