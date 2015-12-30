@@ -40,14 +40,14 @@ module.exports = function (wallaby) {
                     }
                 }
                 // `scriptLoad: true` needs to be used for inline error messages,
-                // but `scriptLoad: true` breaks loading html.
+                // but `scriptLoad: true` for 'app/*' breaks loading html.
                 // so somehow `scriptLoad: false` needs to be set for html, not sure how to do it (tried 'app/*.html' - no luck)
-                //,
-                //meta: {
-                //  'app/*': {
-                //    scriptLoad: true
-                //  }
-                //}
+                ,
+                meta: {
+                  'app/*spec.js': {
+                    scriptLoad: true
+                  }
+                }
             });
 
             var promises = [];
