@@ -2,7 +2,6 @@ module.exports = function (wallaby) {
 
     return {
         files: [
-           //  { pattern: 'node_modules/phantomjs-polyfill/bind-polyfill.js', instrument: false },
             { pattern: 'node_modules/es6-shim/es6-shim.js', instrument: false },
             { pattern: 'jspm_packages/system.js', instrument: false },
             { pattern: 'node_modules/reflect-metadata/Reflect.js', instrument: false },

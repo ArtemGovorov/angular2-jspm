@@ -29,18 +29,13 @@
       "typescript": "npm:typescript@^1.7.5"
     }
   },
-  "dependencies": {
-    "rxjs": "^5.0.0-beta.0",
-    "angular2": "^2.0.0-beta.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jspm": "^0.16.19",
+    "es6-shim": "^0.33.13",
     "karma": "^0.13.15",
-    "karma-chrome-launcher": "^0.2.2",
     "karma-phantomjs2-launcher": "^0.3.2",
     "live-server": "^0.9.0",
     "phantomjs2": "^2.0.2",
-    "es6-shim": "^0.33.13",
     "reflect-metadata": "^0.1.2",
     "typescript": "^1.7.5"
   }
