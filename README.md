@@ -30,6 +30,11 @@ jspm bundle-sfx app build/build-sfx.js --minify
 
 ## 3. Show module relationships
 Execute in browser dev tools console
-```bash
+```javascript
 showModuleRelationships()
 ```
+
+## 4. Run unit tests with http://wallabyjs.com/
+Install wallabyjs for your IDE
+Start wallabyjs
+
