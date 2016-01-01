@@ -3,30 +3,33 @@
 ## 1. Initialize application
 
 Install jspm globally
-```
+```bash
 npm install -g jspm
 ```
 
+Locally install latest packages
 ```bash
-# Validate project configuration file
-jspm init
+npm install
+```
 
-# Locally install latest packages
-npm install && jspm install
-
-# Launch app in browser
+Launch app in browser
+```bash
 npm start
 ``` 
 
-## 2. Play around with jspm bundling
-
-```bash
-jspm bundle src build/build.js --minify
-```
-
+## 2. jspm bundling
 Go to http://127.0.0.1:8080/index-build.html
 ```bash
-jspm bundle-sfx src build/build-sfx --minify
+jspm bundle app build/build.js --minify
 ```
 
 Go to http://127.0.0.1:8080/index-sfx.html
+```bash
+jspm bundle-sfx app build/build-sfx.js --minify
+```
+
+## 3. Show module relationships
+Execute in browser dev tools console
+```bash
+showModuleRelationships()
+```
