@@ -14,4 +14,8 @@ export class AppComponent {
     public plop(s:string) {
         console.log(s)
     }
+    
+    testFunction(){
+        return 2;
+    }
 }

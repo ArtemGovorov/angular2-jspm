@@ -6,9 +6,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "postinstall": "jspm install && tsc",
-    "start": "live-server",
-    "test": "karma start"
+    "postinstall": "jspm install",
+    "start": "live-server"
   },
   "jspm": {
     "dependencies": {
@@ -36,8 +35,13 @@
   },
   "devDependencies": {
     "jspm": "^0.16.19",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-phantomjs2-launcher": "^0.3.2",
     "live-server": "^0.9.0",
-    "phantomjs-polyfill": "0.0.1",
+    "phantomjs2": "^2.0.2",
+    "es6-shim": "^0.33.13",
+    "reflect-metadata": "^0.1.2",
     "typescript": "^1.7.5"
   }
 }
